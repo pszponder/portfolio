@@ -7,24 +7,140 @@
     <title>Portfolio: Piotr Szponder</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>About</li>
-          <li>Work</li>
-          <li>Contact</li>
+    <!-- NAV BAR -->
+    <header class="navbar">
+      <nav class="navbar__wrapper">
+        <ul class="navbar__list">
+          <li class="navbar__list-item">
+            <a href="#about" class="navbar__list-item-link">About</a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#work" class="navbar__list-item-link">Work</a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#skills" class="navbar__list-item-link">Skills</a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#contact" class="navbar__list-item-link">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main></main>
-    <footer>
-      <h2>Let's work together...</h2>
-      <ul>
-        <li><span>LinkedIn LOGO</span>LinkedIn</li>
-        <li><span>GitHub LOGO</span>GitHub</li>
-        <li><span>TWITTER LOGO</span>Twitter</li>
-        <li><span>EMAIL LOGO</span>Email</li>
-      </ul>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero" id="about">
+        <div class="hero__wrapper">
+          <h1 class="hero__heading">
+            Hi,<br />
+            I'm Piotr,<br />
+            aspiring &lt;software developer&gt;.
+          </h1>
+          <h2 class="hero__subheading">
+            Fullstack Software Developer / Web Developer / JavaScript / ReactJS
+          </h2>
+          <img
+            class="hero__img"
+            src="./static/img/profile-picture.png"
+            alt="Profile Picture"
+          />
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="work" id="work">
+        <div class="work__wrapper">
+          <!-- PROJECT 1 -->
+          <h2 class="work__heading">
+            Here are some projects which I have made...
+          </h2>
+          <div class="card">
+            <img src="" alt="" class="card__img" />
+            <h2 class="card__heading">Project 1</h2>
+            <p class="card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque aliquam, incidunt dolorum maxime, repudiandae
+              distinctio cupiditate laudantium natus soluta reiciendis quo
+              repellat debitis est, corporis quis? Sapiente possimus quam illum!
+            </p>
+          </div>
+          <!-- PROJECT 2 -->
+          <div class="card">
+            <img src="" alt="" class="card__img" />
+            <h2 class="card__heading">Project 2</h2>
+            <p class="card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque aliquam, incidunt dolorum maxime, repudiandae
+              distinctio cupiditate laudantium natus soluta reiciendis quo
+              repellat debitis est, corporis quis? Sapiente possimus quam illum!
+            </p>
+          </div>
+          <!-- PROJECT 3 -->
+          <div class="card">
+            <img src="" alt="" class="card__img" />
+            <h2 class="card__heading">Project 3</h2>
+            <p class="card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque aliquam, incidunt dolorum maxime, repudiandae
+              distinctio cupiditate laudantium natus soluta reiciendis quo
+              repellat debitis est, corporis quis? Sapiente possimus quam illum!
+            </p>
+          </div>
+          <!-- PROJECT 4 -->
+          <div class="card">
+            <img src="" alt="" class="card__img" />
+            <h2 class="card__heading">Project 4</h2>
+            <p class="card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque aliquam, incidunt dolorum maxime, repudiandae
+              distinctio cupiditate laudantium natus soluta reiciendis quo
+              repellat debitis est, corporis quis? Sapiente possimus quam illum!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="skills" id="skills">
+        <div class="skills__wrapper">
+          <h2 class="skills__heading">My Current Skillset</h2>
+          <div class="skills__list--wrapper">
+            <ul class="skills__list">
+              <li class="skills__list-item">HTML</li>
+              <li class="skills__list-item">CSS</li>
+              <li class="skills__list-item">JavaScript</li>
+              <li class="skills__list-item">GIT</li>
+              <li class="skills__list-item">Command Line</li>
+              <li class="skills__list-item">Data Structures & Algorithms</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+      <div class="footer__wrapper">
+        <h2 class="footer__header">Let's work together...</h2>
+        <ul class="footer__list">
+          <!-- LINKEDIN -->
+          <li class="footer__list-item">
+            <span class="footer__list-logo">LinkedIn LOGO</span>LinkedIn
+          </li>
+          <!-- GITHUB -->
+          <li class="footer__list-item">
+            <span class="footer__list-logo">GitHub LOGO</span>GitHub
+          </li>
+          <!-- TWITTER -->
+          <li class="footer__list-item">
+            <span class="footer__list-logo">TWITTER LOGO</span>Twitter
+          </li>
+          <!-- EMAIL -->
+          <li class="footer__list-item">
+            <span class="footer__list-logo">EMAIL LOGO</span>Email
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
